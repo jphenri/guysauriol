@@ -26,10 +26,9 @@ Site statique, mobile-first et prêt à déployer sur GitHub Pages pour présent
 └── source-material/
     ├── Guy_Sauriol_Dossier.docx
     ├── GuyTheLegendSauriol-logo.png
-    ├── ChatGPT Image May 2, 2026, 01_27_05 PM (1).png
-    ├── ChatGPT Image May 2, 2026, 01_27_05 PM (2).png
-    ├── ChatGPT Image May 2, 2026, 01_27_06 PM (3).png
-    └── ChatGPT Image May 2, 2026, 01_27_06 PM (4).png
+    ├── guy-sauriol-affiche-hommage-source.png
+    ├── guy-sauriol-legende-lutte-outaouais-source.png
+    └── guy-sauriol-portrait-ceinture-source.png
 ```
 
 ## Renommer le site
@@ -136,11 +135,10 @@ Champs à vérifier à chaque itération éditoriale:
 
 ## Remplacer les liens de contact et les réseaux
 
-Repérez le commentaire `<!-- CONTACT: ... -->` dans `index.html` et remplacez:
+Repérez le commentaire `<!-- CONTACT: ... -->` dans `index.html` pour ajuster ou enrichir les coordonnées actuelles:
 
-- `archives@guy-sauriol.ca`
-- `Facebook archive · lien à ajouter`
-- `YouTube archive · lien à ajouter`
+- `guysauriolthelegend@gmail.com`
+- `https://www.youtube.com/@GuyTheLegendSauriol`
 
 ## Notes sur les sources
 
