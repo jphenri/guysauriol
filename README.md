@@ -20,15 +20,19 @@ Site statique, mobile-first et prêt à déployer sur GitHub Pages pour présent
 │   └── js/
 │       └── main.js
 ├── .nojekyll
+├── docs/
+│   └── Guy_Sauriol_Dossier.md
 ├── index.html
 ├── robots.txt
 ├── sitemap.xml
 └── source-material/
-    ├── Guy_Sauriol_Dossier.docx
-    ├── GuyTheLegendSauriol-logo.png
+    ├── affiche-gpw-thurso-2025-guy-sauriol.jpg
+    ├── cpw-international-ceinture-championnat-source.png
     ├── guy-sauriol-affiche-hommage-source.png
+    ├── guy-sauriol-banner.png
     ├── guy-sauriol-legende-lutte-outaouais-source.png
-    └── guy-sauriol-portrait-ceinture-source.png
+    ├── guy-sauriol-portrait-ceinture-source.png
+    └── guy-sauriol-the-legend-logo-source.png
 ```
 
 ## Renommer le site
