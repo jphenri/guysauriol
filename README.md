@@ -21,7 +21,8 @@ Site statique, mobile-first et prêt à déployer sur GitHub Pages pour présent
 │       └── main.js
 ├── .nojekyll
 ├── docs/
-│   └── Guy_Sauriol_Dossier.md
+│   ├── Guy_Sauriol_Dossier.md
+│   └── guy-sauriol-matchs-galas.md
 ├── index.html
 ├── robots.txt
 ├── sitemap.xml
