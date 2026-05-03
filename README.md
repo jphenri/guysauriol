@@ -144,4 +144,4 @@ Repérez le commentaire `<!-- CONTACT: ... -->` dans `index.html` et remplacez:
 
 ## Notes sur les sources
 
-Le dossier [source-material](/Users/jean-philippehenri/Documents/GitHub/guysauriol/source-material) contient les éléments d'origine importés pour bâtir le site. Vous pouvez le conserver comme dossier de travail, ou le retirer plus tard si vous préférez un dépôt plus minimal.
+Le dossier [source-material](/Users/jean-philippehenri/Documents/GitHub/guysauriol/source-material) contient les éléments d'origine importés pour bâtir le site. Vous pouvez le conserver comme dossier de travail, ou le retirer plus tard si vous préférez un dépôt plus minimal. 
