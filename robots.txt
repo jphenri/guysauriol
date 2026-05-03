@@ -1,0 +1,5 @@
+# SEO: Remplacez le domaine d'exemple ci-dessous par votre URL finale.
+User-agent: *
+Allow: /
+
+Sitemap: https://example.github.io/guy-sauriol/sitemap.xml
