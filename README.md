@@ -21,6 +21,9 @@ Site statique, mobile-first et prêt à déployer sur GitHub Pages pour présent
 │       └── main.js
 ├── .nojekyll
 ├── docs/
+│   ├── original-documents/
+│   │   ├── Documents Lutte Guy Sauriol 2.pdf
+│   │   └── Documents Lutte Guy Sauriol.pdf
 │   ├── Guy_Sauriol_Dossier.md
 │   └── guy-sauriol-matchs-galas.md
 ├── index.html
