@@ -52,7 +52,12 @@
                         "url": "https://www.guysauriol.ca/",
                         "name": "Guy Sauriol | Archive hommage",
                         "inLanguage": "fr-CA",
-                        "description": "Site hommage consacré à Guy Sauriol, légende de la lutte en Outaouais."
+                        "description": "Site hommage consacré à Guy Sauriol, légende de la lutte en Outaouais.",
+                        "publisher": {
+                                "@type": "Organization",
+                                "name": "Archives Guy Sauriol",
+                                "url": "https://www.guysauriol.ca/"
+                        }
                 },
                 {
                         "@type": "Person",
@@ -93,7 +98,8 @@
                         "about": {
                                 "@id": "https://www.guysauriol.ca/#person"
                         },
-                        "primaryImageOfPage": "https://www.guysauriol.ca/assets/images/og-guy-sauriol.jpg"
+                        "primaryImageOfPage": "https://www.guysauriol.ca/assets/images/og-guy-sauriol.jpg",
+                        "dateModified": "2026-05-24"
                 },
                 {
                         "@type": "Event",
@@ -173,6 +179,31 @@
                                         "item": "https://www.guysauriol.ca/"
                                 }
                         ]
+                },
+                {
+                        "@type": "ItemList",
+                        "@id": "https://www.guysauriol.ca/#updates",
+                        "name": "Dernières mises à jour des archives Guy Sauriol",
+                        "itemListElement": [
+                                {
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Polish professionnel du site",
+                                        "item": "https://www.guysauriol.ca/#mises-a-jour"
+                                },
+                                {
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Structure SEO enrichie",
+                                        "item": "https://www.guysauriol.ca/#mises-a-jour"
+                                },
+                                {
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "Annonce Legends Mania archivée",
+                                        "item": "https://www.guysauriol.ca/#evenement"
+                                }
+                        ]
                 }
         ]
 }
@@ -206,17 +237,7 @@
           Menu
         </button>
 
-        <nav class="site-nav" id="site-navigation" aria-label="Navigation principale">
-          <ul class="nav-list">
-            <li><a href="/legends-mania-2026.html">Legends Mania</a></li>
-            <li><a href="/biographie.html">Biographie</a></li>
-            <li><a href="/chronologie.html">Chronologie</a></li>
-            <li><a href="/archives.html">Archives</a></li>
-            <li><a href="/#heritage">Héritage</a></li>
-            <li><a href="/sources.html">Sources</a></li>
-            <li><a href="/contribuer.html">Contribuer</a></li>
-          </ul>
-        </nav>
+        <nav class="site-nav" id="site-navigation" aria-label="Navigation principale"><ul class="nav-list"><li><a href="/legends-mania-2026.html">Legends Mania</a></li><li><a href="/biographie.html">Biographie</a></li><li><a href="/chronologie.html">Chronologie</a></li><li><a href="/archives.html">Archives</a></li><li><a href="/a-propos.html">Projet</a></li><li><a href="/sources.html">Sources</a></li><li><a href="/contribuer.html">Contribuer</a></li></ul></nav>
       </div>
     </header>
 
@@ -237,6 +258,13 @@
               <a class="button button-secondary" href="/biographie.html">Découvrir sa carrière</a>
               <a class="button button-secondary" href="/contribuer.html">Envoyer une archive</a>
             </div>
+
+            <ul class="trust-badges" aria-label="Garanties éditoriales">
+              <li>Archive vivante</li>
+              <li>Sources citées</li>
+              <li>Crédits respectés</li>
+              <li>Dernière mise à jour: 24 mai 2026</li>
+            </ul>
 
             <ul class="hero-facts" aria-label="Repères rapides">
               <li>
@@ -279,6 +307,33 @@
                 public.
               </p>
             </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-updates" id="mises-a-jour" aria-labelledby="updates-title">
+        <div class="container updates-layout">
+          <div class="section-heading">
+            <p class="section-label">Dernières mises à jour</p>
+            <h2 id="updates-title">Une archive entretenue et vérifiable</h2>
+            <p>Chaque ajout important est daté pour montrer l’évolution du dossier et faciliter la vérification des sources.</p>
+          </div>
+          <div class="updates-list" aria-label="Journal des mises à jour du site">
+            <article class="update-card">
+              <time datetime="2026-05-24">24 mai 2026</time>
+              <h3>Polish professionnel du site</h3>
+              <p>Ajout des pages À propos, Crédits et droits, Media, 404, d’un footer complet, d’un journal de mises à jour et d’une galerie plus structurée.</p>
+            </article>
+            <article class="update-card">
+              <time datetime="2026-05-24">24 mai 2026</time>
+              <h3>Structure SEO enrichie</h3>
+              <p>Création des pages Biographie, Archives, Chronologie, Legends Mania, Sources et Contribuer, avec sitemap et données structurées.</p>
+            </article>
+            <article class="update-card">
+              <time datetime="2026-05-24">24 mai 2026</time>
+              <h3>Annonce Legends Mania archivée</h3>
+              <p>Ajout du visuel GPW Wrestling annonçant Guy “The Legend” Sauriol parmi les légendes de Legends Mania.</p>
+            </article>
           </div>
         </div>
       </section>
@@ -469,15 +524,6 @@
                 C'est la période la plus fortement associée à Guy Sauriol, alors qu'il bâtit sa
                 réputation de vétéran intense et de favori du public sur la scène régionale
                 québécoise.
-              </p>
-            </li>
-            <li class="timeline-card">
-              <p class="timeline-year">Années 1980–1990</p>
-              <h3>L'ère des équipes et des alliances marquantes</h3>
-              <p>
-                Les archives rassemblées soulignent son partenariat avec Dave le Justicier, une
-                association qui alimente encore aujourd'hui les récits de la lutte professionnelle à
-                Gatineau et à Hull.
               </p>
             </li>
             <li class="timeline-card">
@@ -710,7 +756,7 @@
                 alt="Guy Sauriol assène un coup dans le ring devant le public"
               >
                 </picture>
-              <span class="gallery-caption">Combat d'archives</span>
+              <span class="gallery-caption">Combat d'archives</span><span class="gallery-meta">Photo · Combat · Lieu à confirmer</span>
             </a>
 
             <a
@@ -730,7 +776,7 @@
                 alt="Affiche hommage vintage de Guy Sauriol avec ceinture dans un ring"
               >
                 </picture>
-              <span class="gallery-caption">Affiche hommage</span>
+              <span class="gallery-caption">Affiche hommage</span><span class="gallery-meta">Affiche · Hommage · Crédit à confirmer</span>
             </a>
 
             <a
@@ -750,7 +796,7 @@
                 alt="Visuel hommage doré de Guy Sauriol avec ceinture de championnat"
               >
                 </picture>
-              <span class="gallery-caption">Héritage et distinction</span>
+              <span class="gallery-caption">Héritage et distinction</span><span class="gallery-meta">Visuel · Archive hommage · Guy Sauriol</span>
             </a>
 
             <a
@@ -770,8 +816,29 @@
                 alt="Portrait de Guy Sauriol debout avec sa ceinture de championnat"
               >
                 </picture>
-              <span class="gallery-caption">Portrait avec ceinture</span>
+              <span class="gallery-caption">Portrait avec ceinture</span><span class="gallery-meta">Portrait · Ceinture · Archives Guy Sauriol</span>
             </a>
+
+            <a
+              class="gallery-card"
+              href="assets/images/guy-sauriol-jeune-lutteur.webp"
+              data-lightbox
+              data-caption="Photo de Guy Sauriol jeune lutteur, ajoutée aux archives du site."
+              aria-label="Ouvrir la photo de Guy Sauriol jeune lutteur"
+            >
+              <picture>
+                <source srcset="assets/images/guy-sauriol-jeune-lutteur.webp" type="image/webp">
+                <img
+                  src="assets/images/guy-sauriol-jeune-lutteur.png"
+                  width="1024"
+                  height="1536"
+                  loading="lazy"
+                  alt="Guy Sauriol jeune lutteur en photo d’archives"
+                >
+              </picture>
+              <span class="gallery-caption">Jeune lutteur</span><span class="gallery-meta">Photo · Début de parcours · Archive ajoutée</span>
+            </a>
+
           </div>
         </div>
       </section>
@@ -826,7 +893,7 @@
 
             <address class="contact-links">
               <!-- CONTACT: Ajoutez ici d'autres plateformes publiques si vous souhaitez enrichir la section contribution. -->
-              <a href="mailto:guysauriolthelegend@gmail.com">guysauriolthelegend@gmail.com</a>
+              <a href="mailto:guysauriolthelegend@gmail.com?subject=Contribution%20archive%20Guy%20Sauriol">guysauriolthelegend@gmail.com</a>
               <a href="https://www.youtube.com/@GuyTheLegendSauriol" target="_blank" rel="noreferrer">
                 YouTube officiel · Guy The Legend Sauriol
               </a>
@@ -841,40 +908,7 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <p class="footer-title">Guy Sauriol</p>
-          <p class="footer-copy">
-            Un site hommage pensé comme une archive vivante de la lutte professionnelle en
-            Outaouais.
-          </p>
-        </div>
-
-        <nav aria-label="Navigation du pied de page">
-          <ul class="footer-nav">
-            <li><a href="/legends-mania-2026.html">Événement</a></li>
-            <li><a href="/biographie.html">Biographie</a></li>
-            <li><a href="/chronologie.html">Chronologie</a></li>
-            <li><a href="/archives.html">Archives</a></li>
-            <li><a href="/sources.html">Sources</a></li>
-            <li><a href="/contribuer.html">Contribuer</a></li>
-          </ul>
-        </nav>
-
-        <div class="footer-meta">
-          <p>© <span id="current-year">2026</span> Archives Guy Sauriol</p>
-          <p>Conçu pour GitHub Pages, mobile-first, documenté et optimisé pour le référencement local.</p>
-          <p>
-            <a href="mailto:guysauriolthelegend@gmail.com">Courriel</a>
-            ·
-            <a href="https://www.youtube.com/@GuyTheLegendSauriol" target="_blank" rel="noreferrer">
-              YouTube
-            </a>
-          </p>
-        </div>
-      </div>
-    </footer>
+    <footer class="site-footer"><div class="container footer-grid"><div><p class="footer-title">Guy Sauriol</p><p class="footer-copy">Archive vivante, indépendante et documentée de la lutte professionnelle en Outaouais.</p><p class="small-note">Dernière mise à jour: 24 mai 2026 · Sources citées · Contributions bienvenues</p></div><nav aria-label="Navigation du pied de page"><ul class="footer-nav"><li><a href="/">Accueil</a></li><li><a href="/legends-mania-2026.html">Legends Mania</a></li><li><a href="/biographie.html">Biographie</a></li><li><a href="/chronologie.html">Chronologie</a></li><li><a href="/archives.html">Archives</a></li><li><a href="/a-propos.html">À propos</a></li><li><a href="/sources.html">Sources</a></li><li><a href="/credits-droits.html">Crédits et droits</a></li><li><a href="/media.html">Media</a></li><li><a href="/contribuer.html">Contribuer</a></li></ul></nav><div class="footer-meta"><p>© <span id="current-year">2026</span> Archives Guy Sauriol</p><p><a href="mailto:guysauriolthelegend@gmail.com?subject=Contribution%20archive%20Guy%20Sauriol">Envoyer une archive</a> · <a href="https://www.youtube.com/@GuyTheLegendSauriol" target="_blank" rel="noreferrer">YouTube</a></p><p><a href="/credits-droits.html">Crédits et droits</a> · <a href="/media.html">Media</a></p></div></div></footer>
 
     <dialog class="lightbox" id="lightbox" aria-label="Visionneuse d'images">
       <div class="lightbox-panel">
