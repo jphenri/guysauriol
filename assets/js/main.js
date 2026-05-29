@@ -8,6 +8,24 @@ const lightboxImage = lightbox?.querySelector("img");
 const lightboxCaption = lightbox?.querySelector("figcaption");
 const lightboxClose = lightbox?.querySelector(".lightbox-close");
 
+const normalizePath = (path) => path.replace(/\/$/, "") || "/";
+const currentPath = normalizePath(window.location.pathname);
+
+navLinks.forEach((link) => {
+  const href = link.getAttribute("href");
+
+  if (!href || href.startsWith("#") || href.startsWith("http")) {
+    return;
+  }
+
+  const linkPath = normalizePath(new URL(href, window.location.origin).pathname);
+
+  if (linkPath === currentPath) {
+    link.classList.add("is-active");
+    link.setAttribute("aria-current", "page");
+  }
+});
+
 if (currentYear) {
   currentYear.textContent = String(new Date().getFullYear());
 }
