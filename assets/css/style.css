@@ -1355,7 +1355,6 @@ select {
 
 /* Professional polish */
 .trust-badges,
-.updates-list,
 .archive-metadata {
   margin: 0;
   padding: 0;
@@ -1378,53 +1377,6 @@ select {
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.03em;
-}
-
-.section-updates {
-  background:
-    radial-gradient(circle at 20% 20%, rgba(199, 157, 83, 0.11), transparent 18rem),
-    rgba(17, 11, 8, 0.45);
-}
-
-.updates-layout {
-  display: grid;
-  gap: 1.25rem;
-}
-
-.updates-list {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
-}
-
-.update-card {
-  padding: 1.1rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-  background:
-    linear-gradient(180deg, rgba(241, 228, 207, 0.075), rgba(241, 228, 207, 0.025)),
-    var(--surface);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.update-card time {
-  display: inline-flex;
-  margin-bottom: 0.55rem;
-  color: var(--gold-soft);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.update-card h3 {
-  margin: 0 0 0.4rem;
-  color: var(--paper-strong);
-}
-
-.update-card p {
-  margin: 0;
-  color: var(--text-muted);
 }
 
 .gallery-meta {
@@ -1622,7 +1574,6 @@ body::after {
 .contribution-card,
 .info-panel,
 .timeline-card,
-.update-card,
 .gallery-card {
   position: relative;
   overflow: hidden;
@@ -1634,7 +1585,6 @@ body::after {
 .contribution-card::after,
 .info-panel::after,
 .timeline-card::after,
-.update-card::after,
 .gallery-card::after {
   content: "";
   position: absolute;
@@ -1648,7 +1598,6 @@ body::after {
 .archive-card,
 .legacy-card,
 .timeline-card,
-.update-card,
 .gallery-card,
 .event-showcase,
 .hero-card,
@@ -1661,7 +1610,6 @@ body::after {
 .archive-card:hover,
 .legacy-card:hover,
 .timeline-card:hover,
-.update-card:hover,
 .gallery-card:hover {
   transform: translateY(-4px);
   border-color: var(--line-strong);
