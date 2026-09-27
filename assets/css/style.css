@@ -929,9 +929,36 @@ select {
   line-height: 1.05;
 }
 
-.video-copy p:last-child {
+.video-copy p:last-of-type {
   margin: 0;
   color: var(--paper);
+}
+
+.video-copy .text-link {
+  display: inline-flex;
+  margin-top: 0.9rem;
+}
+
+.video-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.video-card {
+  min-width: 0;
+}
+
+.video-card h4 {
+  margin: 0.85rem 0 0.35rem;
+  color: var(--paper-strong);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.video-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.86rem;
 }
 
 .video-frame {
@@ -1253,9 +1280,8 @@ select {
     grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
   }
 
-  .video-archive {
-    grid-template-columns: minmax(16rem, 0.75fr) minmax(0, 1.25fr);
-    align-items: center;
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contribution-layout,
